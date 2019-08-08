@@ -2,7 +2,7 @@ package com.helios.expression
 
 import java.util.*
 
-class MidSufixExpression {
+class MidSuffixExpression {
 
     fun mid2Suffix(str: String): String {
         val stack: Stack<Char> = Stack()
@@ -58,7 +58,7 @@ class MidSufixExpression {
 fun main() {
     val mid = "1-(2+3)*4+5"
     val suffix = "123+4*-5+"
-    val convert = MidSufixExpression()
+    val convert = MidSuffixExpression()
     println(convert.mid2Suffix(mid))
     println(convert.suffix2Mid(suffix))
 
